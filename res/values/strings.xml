@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">IMS Widget</string>
+    <!-- Phone Info screen. IMS Status - Registered.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ims_reg_status_registered">Registered</string>
+    <!-- Phone Info screen. Ims Status - Unregistered.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ims_reg_status_not_registered">Not Registered</string>
+
+    <!-- Phone Info screen. Ims Feature Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ims_feature_status_available">Available</string>
+    <!-- Phone Info screen. Ims Feature status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ims_feature_status_unavailable">Unavailable</string>
+
+    <!-- Phone Info screen. IMS Registration.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ims_reg_status_dual">
+        IMS Registration: <xliff:g id="status" example="registered">%1$s</xliff:g>, <xliff:g id="status" example="registered">%2$s</xliff:g>\u000A
+        Voice over LTE: <xliff:g id="availability" example="available">%3$s</xliff:g>, <xliff:g id="availability" example="available">%4$s</xliff:g>\u000A
+        Voice over WiFi: <xliff:g id="availability" example="available">%5$s</xliff:g>, <xliff:g id="availability" example="available">%6$s</xliff:g>\u000A
+        Video Calling: <xliff:g id="availability" example="available">%7$s</xliff:g>, <xliff:g id="availability" example="available">%8$s</xliff:g>
+    </string>
+
+    <string name="radio_info_ims_reg_status_single">
+        IMS Registration: <xliff:g id="status" example="registered">%1$s</xliff:g>\u000A
+        Voice over LTE: <xliff:g id="availability" example="available">%2$s</xliff:g>\u000A
+        Voice over WiFi: <xliff:g id="availability" example="available">%3$s</xliff:g>\u000A
+        Video Calling: <xliff:g id="availability" example="available">%4$s</xliff:g>
+    </string>
+
+    <string name="last_updated">
+        Last Updated: <xliff:g id="hour" example="12">%02d</xliff:g>:<xliff:g id="minute" example="42">%02d</xliff:g>:<xliff:g id="second" example="59">%02d</xliff:g>
+    </string>
+
+    <string name="sim_settings">IMS Settings</string>
+    <string name="sim_1">SIM 1 (%1$s)</string>
+    <string name="sim_2">SIM 2 (%1$s)</string>
+    <string name="show_ims_status_of_sim_1">Show IMS Status of SIM 1</string>
+    <string name="show_ims_status_of_sim_2">Show IMS Status of SIM 2</string>
+    <string name="to_be_updated">To be updated</string>
+</resources>

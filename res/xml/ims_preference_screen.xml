@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+>
+
+    <PreferenceCategory
+            android:title="@string/sim_settings">
+
+        <SwitchPreferenceCompat
+            android:key="sim1_status"
+            android:title="@string/sim_1"
+            android:summary="@string/show_ims_status_of_sim_1"
+            android:checked = "true" />
+
+        <SwitchPreferenceCompat
+            android:key="sim2_status"
+            android:title="@string/sim_2"
+            android:summary="@string/show_ims_status_of_sim_2"
+            android:checked = "true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
